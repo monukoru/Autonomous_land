@@ -17,17 +17,16 @@ It keeps repeating this process until it finds the model that fits the maximum n
 
 * Computer Vision (Line fitting, Homography, Pose Estimation) 📷
 * Robotics & SLAM 🤖
-* LiDAR point cloud processing 🌐
+* Depth camera point cloud processing 🌐
 * Plane detection
 * Feature matching
 
 ⚙️ **Basic Steps:**
 
-1. Randomly select minimum points
-2. Fit a model
-3. Count inliers (points close to model)
-4. Repeat many times
-5. Choose model with most inliers
+1. Fit a model
+2. Count inliers (points close to model)
+3. Repeat many times
+4. Choose model with most inliers
 
 💡 **In one line:**
 
@@ -35,5 +34,7 @@ It keeps repeating this process until it finds the model that fits the maximum n
 
 🔥 Very powerful when your data is messy — and in real-world robotics, data is always messy.
 
-#Robotics #ComputerVision #RANSAC #SLAM #PointCloud #Algorithms
 
+<img width="857" height="698" alt="Screenshot from 2026-04-04 21-46-42" src="https://github.com/user-attachments/assets/db8c9e77-9c79-4019-94ab-561a0b44ff59" />
+<img width="871" height="804" alt="Screenshot from 2026-04-04 21-46-03" src="https://github.com/user-attachments/assets/1eae65d5-9c51-4a7d-867c-8ccc68c4a5ab" />
+<img width="1004" height="913" alt="Screenshot from 2026-04-04 21-44-41" src="https://github.com/user-attachments/assets/3f6b1bb7-e514-4a9c-9961-cd84255b420d" />
